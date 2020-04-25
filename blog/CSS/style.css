@@ -1,0 +1,53 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	background-color: #edc17e;
+}
+
+.hero{
+	background: url("C:/Users/lenovo/Desktop/blog/btbg.jpg");
+	height:500px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+.container{
+	background-color: #fff;
+	height:800px;
+	width:80%;
+	position:relative;
+	transform:translate(0%,-20%);
+}
+
+.container img{
+	margin-top:30px;
+	margin-left:15px;
+	height:300px;
+	width:450px;
+}
+
+.row .col-md-8 h2{
+	text-align:center;
+	padding-top:40px;
+}
+
+.row .col-md-8 h3{
+	text-align:left;
+	padding-top:40px;
+	width:80%;
+	transform: translate(20%,-0%);
+}
+
+p{
+
+}
+
+
+
+
+
+

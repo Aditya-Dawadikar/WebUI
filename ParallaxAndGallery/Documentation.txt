@@ -1,0 +1,5 @@
+Parallax method
+image slider
+transparent navbar
+footer
+image grid

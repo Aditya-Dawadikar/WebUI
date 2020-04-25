@@ -1,0 +1,244 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.sticky{
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+nav{
+	position:fixed;
+	padding:10px;
+	color:#fff;
+	width:100%;
+	height:60px;
+	background-color: #000;
+	opacity: .8;
+	z-index:5;
+}
+
+nav span{
+	float: left;
+	font-family:arial;
+	padding-left:30px;
+	padding-top:3px;
+	padding-right:50px;
+	font-size: 25px
+}
+
+nav ul{
+	padding:10px;
+	float:left;
+}
+
+nav ul li{
+	float:left;
+	list-style: none;
+	position:relative;
+	height:50px;
+	padding-right:100px;
+	text-align: center center;
+}
+
+
+
+nav ul li a{
+	display:block;
+	font-family: arial;
+	color:#fff;
+	font-size:14px;
+	padding-right:10px;
+	text-decoration: none;
+}
+
+nav ul li ul{
+	display:none;
+	position: absolute;
+	background-color: #222;
+	opacity:.8;
+	border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+	display:block;
+}
+
+nav ul li ul li{
+	width:120px;
+}
+
+nav ul li ul li a{
+	width:200px;
+}
+
+nav ul li ul li a: hover{
+	background-color:#fff;
+}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+
+#p1{
+	background-image: url("images/callofduty.jpg");
+	height:600px;
+	background-size: 80%;
+}
+
+#p2{
+	background-image: url("images/rickandmorty.jpg");
+	height:500px; 
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  max-height: 500px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display:inherit;
+  padding-left:167px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000;
+  font-size: 15px;
+  padding: 30px 12px 0px 20px;
+  position: relative;
+  /*bottom: 8px;*/
+  width: 100%;
+
+  /*text-align: center;*/
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+
+
+
+footer{
+	height:200px;
+	background-color:#29dfe6;
+	color:#fff;
+}
+
+.row{
+	padding:30px 30px 0px 30px;
+}
+
+#content{
+	text-align: center;
+	background-color:#000;
+	padding-bottom:10px; 
+	height:100%;
+	width:50%;
+	border-radius: 100px;
+	padding-top: 10px;
+}
+
+.footlinks{
+	list-style:none;
+}
+
+.footerfoot{
+	background-color:#1082c9;
+	text-align:center;
+	color:white;              
+}
+
+
+.rowimg1{
+	display:flex;
+	flex-wrap:wrap;
+	padding:0px 4px;
+	padding-top:60px;
+}
+
+.rowimg{
+	display:flex;
+	flex-wrap:wrap;
+	padding:0px 4px;
+	padding-top:8px;
+}
+
+.columnimg{
+	padding-left:200px;
+	flex:100%;
+	max-width:100%;
+}
+
+
+.columnimg img{
+	margin-top:8px;
+	vertical-align:middle;
+	width:20%;
+	border-radius: 20px
+}
+
+
+
